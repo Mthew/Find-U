@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finder.Model", "Finder.Model\Finder.Model.csproj", "{FC491F79-0BC9-42DE-BB9B-F496A644C099}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finder.Rules", "Finder.Rules\Finder.Rules.csproj", "{7B6191B0-6874-45F5-959E-DFA5BF7ADF21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finder.Repository", "Finder.Repository\Finder.Repository.csproj", "{318C606E-1189-4FB3-A603-6D0E2BB8FCC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finder.Dto", "Finder.Dto\Finder.Dto.csproj", "{80A99569-3163-48EE-8CC8-51BD7F5CBCEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finder.API", "Finder.API\Finder.API.csproj", "{09C35EB3-B57E-486A-B353-4DE908E1E703}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finder.SPA", "Finder.SPA\Finder.SPA.csproj", "{03F9987B-CC86-47D0-9A1D-E65085984899}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC491F79-0BC9-42DE-BB9B-F496A644C099}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC491F79-0BC9-42DE-BB9B-F496A644C099}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC491F79-0BC9-42DE-BB9B-F496A644C099}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC491F79-0BC9-42DE-BB9B-F496A644C099}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B6191B0-6874-45F5-959E-DFA5BF7ADF21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B6191B0-6874-45F5-959E-DFA5BF7ADF21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B6191B0-6874-45F5-959E-DFA5BF7ADF21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B6191B0-6874-45F5-959E-DFA5BF7ADF21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{318C606E-1189-4FB3-A603-6D0E2BB8FCC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{318C606E-1189-4FB3-A603-6D0E2BB8FCC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{318C606E-1189-4FB3-A603-6D0E2BB8FCC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{318C606E-1189-4FB3-A603-6D0E2BB8FCC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80A99569-3163-48EE-8CC8-51BD7F5CBCEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80A99569-3163-48EE-8CC8-51BD7F5CBCEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80A99569-3163-48EE-8CC8-51BD7F5CBCEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80A99569-3163-48EE-8CC8-51BD7F5CBCEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09C35EB3-B57E-486A-B353-4DE908E1E703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09C35EB3-B57E-486A-B353-4DE908E1E703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09C35EB3-B57E-486A-B353-4DE908E1E703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09C35EB3-B57E-486A-B353-4DE908E1E703}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03F9987B-CC86-47D0-9A1D-E65085984899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03F9987B-CC86-47D0-9A1D-E65085984899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03F9987B-CC86-47D0-9A1D-E65085984899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03F9987B-CC86-47D0-9A1D-E65085984899}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

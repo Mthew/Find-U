@@ -1,0 +1,9 @@
+C:\D\Projects\Find-U-Team\Source\Finder\Finder.Repository\obj\Debug\Finder.Repository.csprojResolveAssemblyReference.cache
+C:\D\Projects\Find-U-Team\Source\Finder\Finder.Repository\bin\Debug\Finder.Repository.dll
+C:\D\Projects\Find-U-Team\Source\Finder\Finder.Repository\bin\Debug\Finder.Repository.pdb
+C:\D\Projects\Find-U-Team\Source\Finder\Finder.Repository\bin\Debug\Finder.Dto.dll
+C:\D\Projects\Find-U-Team\Source\Finder\Finder.Repository\bin\Debug\Finder.Model.dll
+C:\D\Projects\Find-U-Team\Source\Finder\Finder.Repository\bin\Debug\Finder.Dto.pdb
+C:\D\Projects\Find-U-Team\Source\Finder\Finder.Repository\bin\Debug\Finder.Model.pdb
+C:\D\Projects\Find-U-Team\Source\Finder\Finder.Repository\obj\Debug\Finder.Repository.dll
+C:\D\Projects\Find-U-Team\Source\Finder\Finder.Repository\obj\Debug\Finder.Repository.pdb

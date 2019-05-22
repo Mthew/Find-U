@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 14.25, 13.25" name="FinderModel">
+  <DataContextMoniker Name="/FinderModelDataContext" />
+  <nestedChildShapes>
+    <classShape Id="08bec157-618f-42d2-8bf7-facd27119a89" absoluteBounds="12, 4.375, 2, 2.9247054036458326">
+      <DataClassMoniker Name="/FinderModelDataContext/CarrersUniversity" />
+      <nestedChildShapes>
+        <elementListCompartment Id="056deea4-4cc9-403a-b28c-02cb297a3e4c" absoluteBounds="12.015, 4.835, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="de23b761-c87d-446c-b560-15bdb0503c11" absoluteBounds="0.75, 8.5, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/FinderModelDataContext/User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1c580e35-ef04-440a-8188-a17d2f84eb42" absoluteBounds="0.765, 8.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="325d1073-970f-4705-adb4-bd29958694fe" absoluteBounds="6.25, 5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/FinderModelDataContext/City" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5bf3045f-39a1-40e1-9720-72e15dd8be24" absoluteBounds="6.265, 5.46, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="67fbb381-63c5-4519-8dd5-664a42f8ed62" absoluteBounds="0.75, 5.125, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/FinderModelDataContext/Country" />
+      <nestedChildShapes>
+        <elementListCompartment Id="00e37269-4167-45f1-a868-ecfe122d41b2" absoluteBounds="0.765, 5.585, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e3ee84a6-ef49-49b3-85be-6869a0825bd8" absoluteBounds="3.5, 5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/FinderModelDataContext/Departament" />
+      <nestedChildShapes>
+        <elementListCompartment Id="644250e9-8b5c-426a-968b-fa383541b271" absoluteBounds="3.515, 5.46, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fd0f7910-a7c4-4ff8-86e4-5c4bea1248fe" absoluteBounds="9, 4.5, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/FinderModelDataContext/Person" />
+      <nestedChildShapes>
+        <elementListCompartment Id="43ece163-e63b-4666-afab-159e9628f321" absoluteBounds="9.015, 4.96, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3f69f791-9581-444b-b4c6-658d005de259" absoluteBounds="0.75, 11.375, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/FinderModelDataContext/Role" />
+      <nestedChildShapes>
+        <elementListCompartment Id="575671c5-3b64-4db6-aedc-6a08e757d92d" absoluteBounds="0.765, 11.835, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="75d6e5d9-f381-464b-9336-1cbbc3bb887d" absoluteBounds="3.5, 8.5, 2, 1.3862939453124987">
+      <DataClassMoniker Name="/FinderModelDataContext/RolesUser" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4c1cd670-a6f8-4d30-a81e-007efa2a4700" absoluteBounds="3.515, 8.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9671c9fa-9a75-4e01-84f7-23008943fc2b" absoluteBounds="9.25, 0.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/FinderModelDataContext/University" />
+      <nestedChildShapes>
+        <elementListCompartment Id="99f42b75-f80f-42bc-972f-f2c47441875c" absoluteBounds="9.265, 1.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4ce5fd83-58e8-40c0-b65d-dda4246df202" absoluteBounds="6.5, 2.125, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/FinderModelDataContext/UniversityType" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c1c1c14c-f45f-4cdd-b7b0-b1d5c0a949a3" absoluteBounds="6.515, 2.585, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(7.25 : 6.57859537760417); (7.25 : 7.20115397135417); (12 : 7.20115397135417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/FinderModelDataContext/City/City_CarrersUniversity" />
+      <nodes>
+        <classShapeMoniker Id="325d1073-970f-4705-adb4-bd29958694fe" />
+        <classShapeMoniker Id="08bec157-618f-42d2-8bf7-facd27119a89" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 5.78929768880208); (6.25 : 5.78929768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/FinderModelDataContext/Departament/Departament_City" />
+      <nodes>
+        <classShapeMoniker Id="e3ee84a6-ef49-49b3-85be-6869a0825bd8" />
+        <classShapeMoniker Id="325d1073-970f-4705-adb4-bd29958694fe" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 5.81814697265625); (3.5 : 5.81814697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/FinderModelDataContext/Country/Country_Departament" />
+      <nodes>
+        <classShapeMoniker Id="67fbb381-63c5-4519-8dd5-664a42f8ed62" />
+        <classShapeMoniker Id="e3ee84a6-ef49-49b3-85be-6869a0825bd8" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 5.78929768880208); (9 : 5.78929768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/FinderModelDataContext/City/City_Person" />
+      <nodes>
+        <classShapeMoniker Id="325d1073-970f-4705-adb4-bd29958694fe" />
+        <classShapeMoniker Id="fd0f7910-a7c4-4ff8-86e4-5c4bea1248fe" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 12.1642976888021); (4.5 : 12.1642976888021); (4.5 : 9.8862939453125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/FinderModelDataContext/Role/Role_RolesUser" />
+      <nodes>
+        <classShapeMoniker Id="3f69f791-9581-444b-b4c6-658d005de259" />
+        <classShapeMoniker Id="75d6e5d9-f381-464b-9336-1cbbc3bb887d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 9.19314697265625); (3.5 : 9.19314697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/FinderModelDataContext/User/User_RolesUser" />
+      <nodes>
+        <classShapeMoniker Id="de23b761-c87d-446c-b560-15bdb0503c11" />
+        <classShapeMoniker Id="75d6e5d9-f381-464b-9336-1cbbc3bb887d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.15625 : 2.90549967447917); (11.15625 : 7.16990147135417); (12 : 7.16990147135417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/FinderModelDataContext/University/University_CarrersUniversity" />
+      <nodes>
+        <classShapeMoniker Id="9671c9fa-9a75-4e01-84f7-23008943fc2b" />
+        <classShapeMoniker Id="08bec157-618f-42d2-8bf7-facd27119a89" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.5 : 2.51524983723958); (9.25 : 2.51524983723958)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/FinderModelDataContext/UniversityType/UniversityType_University" />
+      <nodes>
+        <classShapeMoniker Id="4ce5fd83-58e8-40c0-b65d-dda4246df202" />
+        <classShapeMoniker Id="9671c9fa-9a75-4e01-84f7-23008943fc2b" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

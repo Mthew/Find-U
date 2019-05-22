@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="dbFind_U" Class="FinderModelDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=dbFind_U;Integrated Security=True" SettingsObjectName="Finder.Model.Properties.Settings" SettingsPropertyName="dbFind_UConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.CarrersUniversity" Member="CarrersUniversities">
+    <Type Name="CarrersUniversity">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UniversityId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(300)" CanBeNull="true" />
+      <Column Name="SNIESCode" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="QualifiedRegistration" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="Accreditation" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="TitleGranted" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Duration" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Modality" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CityId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="City_CarrersUniversity" Member="City" ThisKey="CityId" OtherKey="Id" Type="City" IsForeignKey="true" />
+      <Association Name="University_CarrersUniversity" Member="University" ThisKey="UniversityId" OtherKey="Id" Type="University" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Users" Member="Users">
+    <Type Name="User">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserName" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Association Name="User_RolesUser" Member="RolesUsers" ThisKey="Id" OtherKey="UserId" Type="RolesUser" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Cities" Member="Cities">
+    <Type Name="City">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DeaprtamentId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Code" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Association Name="City_CarrersUniversity" Member="CarrersUniversities" ThisKey="Id" OtherKey="CityId" Type="CarrersUniversity" />
+      <Association Name="City_Person" Member="Persons" ThisKey="Id" OtherKey="CityId" Type="Person" />
+      <Association Name="Departament_City" Member="Departament" ThisKey="DeaprtamentId" OtherKey="Id" Type="Departament" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Countries" Member="Countries">
+    <Type Name="Country">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Code" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Association Name="Country_Departament" Member="Departaments" ThisKey="Id" OtherKey="CountyId" Type="Departament" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Departaments" Member="Departaments">
+    <Type Name="Departament">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CountyId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Code" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Association Name="Departament_City" Member="Cities" ThisKey="Id" OtherKey="DeaprtamentId" Type="City" />
+      <Association Name="Country_Departament" Member="Country" ThisKey="CountyId" OtherKey="Id" Type="Country" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Persons" Member="Persons">
+    <Type Name="Person">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DocumentType" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="DocumentNumber" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="LastName" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="Phone" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="Address" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="CityId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="City_Person" Member="City" ThisKey="CityId" OtherKey="Id" Type="City" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Roles" Member="Roles">
+    <Type Name="Role">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Code" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Association Name="Role_RolesUser" Member="RolesUsers" ThisKey="Id" OtherKey="RoleId" Type="RolesUser" />
+    </Type>
+  </Table>
+  <Table Name="dbo.RolesUser" Member="RolesUsers">
+    <Type Name="RolesUser">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="RoleId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Role_RolesUser" Member="Role" ThisKey="RoleId" OtherKey="Id" Type="Role" IsForeignKey="true" />
+      <Association Name="User_RolesUser" Member="User" ThisKey="UserId" OtherKey="Id" Type="User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.University" Member="Universities">
+    <Type Name="University">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="Nit" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="TypeId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Phone" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Address" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Association Name="University_CarrersUniversity" Member="CarrersUniversities" ThisKey="Id" OtherKey="UniversityId" Type="CarrersUniversity" />
+      <Association Name="UniversityType_University" Member="UniversityType" ThisKey="TypeId" OtherKey="Id" Type="UniversityType" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.UniversityType" Member="UniversityTypes">
+    <Type Name="UniversityType">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Code" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Association Name="UniversityType_University" Member="Universities" ThisKey="Id" OtherKey="TypeId" Type="University" />
+    </Type>
+  </Table>
+</Database>

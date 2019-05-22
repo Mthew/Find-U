@@ -1,0 +1,5 @@
+C:\D\Projects\Find-U-Team\Source\Finder\Finder.Dto\bin\Debug\Finder.Dto.dll
+C:\D\Projects\Find-U-Team\Source\Finder\Finder.Dto\bin\Debug\Finder.Dto.pdb
+C:\D\Projects\Find-U-Team\Source\Finder\Finder.Dto\obj\Debug\Finder.Dto.csprojResolveAssemblyReference.cache
+C:\D\Projects\Find-U-Team\Source\Finder\Finder.Dto\obj\Debug\Finder.Dto.dll
+C:\D\Projects\Find-U-Team\Source\Finder\Finder.Dto\obj\Debug\Finder.Dto.pdb
